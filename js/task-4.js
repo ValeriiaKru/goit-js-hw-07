@@ -1,6 +1,6 @@
 'use strict';
-const registerForm = document.querySelector(".login-form");
-registerForm.addEventListener('submit', submitForm);
+const loginForm = document.querySelector(".login-form");
+loginForm.addEventListener('submit', submitForm);
 function submitForm(event) {
     event.preventDefault();
     const form = event.target;
